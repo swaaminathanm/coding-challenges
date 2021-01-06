@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df58608d-f30f-4852-a25b-279a1491f32b" name="Default Changelist" comment="" />
+    <list default="true" id="df58608d-f30f-4852-a25b-279a1491f32b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/FlattenArray/flatten.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +43,7 @@
       <recent name="$PROJECT_DIR$/NearestLowerAndHigherNumberInArray" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Merge Tests">
+  <component name="RunManager" selected="Node.js.flatten">
     <configuration name="Merge Tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -108,12 +110,16 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="flatten" type="NodeJSConfigurationType" path-to-js-file="flatten.js" working-dir="$PROJECT_DIR$/FlattenArray">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Jest.should return list 1 if list 2 is empty" />
       <item itemvalue="Jest.should return list 2 if list 1 is empty" />
       <item itemvalue="Jest.should merge 2 lists" />
       <item itemvalue="Jest.Merge Tests" />
       <item itemvalue="Jest.Merge Tests.should merge 2 lists" />
+      <item itemvalue="Node.js.flatten" />
     </list>
     <recent_temporary>
       <list>
@@ -138,6 +144,7 @@
       <updated>1602835458889</updated>
       <workItem from="1604824833772" duration="7627000" />
       <workItem from="1606635905289" duration="7415000" />
+      <workItem from="1609918064779" duration="620000" />
     </task>
     <servers />
   </component>
@@ -145,10 +152,11 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604833016989">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state x="304" y="167" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609918684864">
+      <screen x="0" y="23" width="1680" height="967" />
     </state>
     <state x="304" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.963@0.23.1680.963" timestamp="1604833016989" />
+    <state x="304" y="167" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.967@0.23.1680.967" timestamp="1609918684864" />
     <state x="100" y="123" width="1480" height="763" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1604829958892">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
@@ -157,22 +165,26 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="499" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1604824157023" />
-    <state width="1659" height="259" key="GridCell.Tab.0.bottom" timestamp="1606643663898">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1659" height="259" key="GridCell.Tab.0.bottom" timestamp="1609918565172">
+      <screen x="0" y="23" width="1680" height="967" />
     </state>
     <state width="1659" height="259" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1606643663898" />
-    <state width="1659" height="259" key="GridCell.Tab.0.center" timestamp="1606643663897">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1659" height="259" key="GridCell.Tab.0.bottom/0.23.1680.967@0.23.1680.967" timestamp="1609918565172" />
+    <state width="1659" height="259" key="GridCell.Tab.0.center" timestamp="1609918565172">
+      <screen x="0" y="23" width="1680" height="967" />
     </state>
     <state width="1659" height="259" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1606643663897" />
-    <state width="1659" height="259" key="GridCell.Tab.0.left" timestamp="1606643663897">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1659" height="259" key="GridCell.Tab.0.center/0.23.1680.967@0.23.1680.967" timestamp="1609918565172" />
+    <state width="1659" height="259" key="GridCell.Tab.0.left" timestamp="1609918565171">
+      <screen x="0" y="23" width="1680" height="967" />
     </state>
     <state width="1659" height="259" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1606643663897" />
-    <state width="1659" height="259" key="GridCell.Tab.0.right" timestamp="1606643663898">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1659" height="259" key="GridCell.Tab.0.left/0.23.1680.967@0.23.1680.967" timestamp="1609918565171" />
+    <state width="1659" height="259" key="GridCell.Tab.0.right" timestamp="1609918565172">
+      <screen x="0" y="23" width="1680" height="967" />
     </state>
     <state width="1659" height="259" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1606643663898" />
+    <state width="1659" height="259" key="GridCell.Tab.0.right/0.23.1680.967@0.23.1680.967" timestamp="1609918565172" />
     <state width="1659" height="320" key="GridCell.Tab.1.bottom" timestamp="1606643663889">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
